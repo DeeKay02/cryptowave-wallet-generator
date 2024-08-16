@@ -7,3 +7,31 @@
 body {
   font-family: 'Orbitron', sans-serif;
 }
+
+:root {
+  --color-neon-cyan: #00e6e6;
+  --color-neon-pink: #ff66ff;
+}
+.text-neon-cyan {
+  color: var(--color-neon-cyan);
+}
+
+.text-neon-pink {
+  color: var(--color-neon-pink);
+}
+
+.text-eth-address {
+  color: #ffcc00;
+}
+
+.text-eth-private-key {
+  color: #ff3333; 
+}
+
+.text-sol-public-key {
+  color: #33cc33; 
+}
+
+.text-sol-secret-key {
+  color: #ff66ff;
+}
